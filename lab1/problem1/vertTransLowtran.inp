@@ -1,0 +1,12 @@
+source solar
+rte_solver disort
+mol_abs_param lowtran
+wavelength 250 5000
+aerosol_default
+
+atmosphere_file /sw/libRadtran-2.0.4/share/libRadtran/data/atmmod/afglus.dat
+
+output_quantity transmittance
+output_user lambda edir eglo
+
+quiet
