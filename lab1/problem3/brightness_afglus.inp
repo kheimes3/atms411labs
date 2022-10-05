@@ -1,0 +1,19 @@
+rte_solver disort
+mol_abs_param lowtran
+atmosphere_file /sw/libRadtran-2.0.4/share/libRadtran/data/atmmod/afglus.dat
+aerosol_default
+
+output_quantity brightness 
+
+albedo 0                   # set albedo to 0, emissivity to 1
+source thermal             # thermal
+wavelength 6000 25000
+
+zout TOA                   # top of atmosphere
+                           # looking downward
+umu 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+phi 0
+
+output_user lambda uu
+
+quiet
