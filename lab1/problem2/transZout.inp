@@ -1,6 +1,6 @@
 source solar
 rte_solver disort
-mol_abs_param lowtran
+mol_abs_param reptran fine
 wavelength 250 5000
 aerosol_default
 zout 0 11 30 50
