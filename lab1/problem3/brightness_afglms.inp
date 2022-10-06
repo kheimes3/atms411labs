@@ -1,6 +1,6 @@
 rte_solver disort
 mol_abs_param reptran fine
-atmosphere_file /sw/libRadtran-2.0.4/share/libRadtran/data/atmmod/afglus.dat
+atmosphere_file /sw/libRadtran-2.0.4/share/libRadtran/data/atmmod/afglms.dat
 aerosol_default
 
 output_quantity brightness 
